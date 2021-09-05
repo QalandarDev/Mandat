@@ -1,4 +1,16 @@
 <?php
+/*
+ ****Copyright 2021 Qalandar Axmedov
+ ****(https://github.com/QalandarAxmedov)
+ ****This file is part of Mandat
+ ****(https://github.com/QalandarAxmedov/Mandat)
+ ****Mandat is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+ ****Mandat is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ ****See the GNU Affero General Public License for more details.
+ ****You should have received a copy of the GNU General Public License along with Mandat.
+ ****If not, see <http://www.gnu.org/licenses/>.
+ */
+
 header("Content-type:application/json");
 include_once 'simple_html_dom.php';
 $id = $_GET['id'];
